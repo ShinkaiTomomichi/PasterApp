@@ -20,6 +20,7 @@
 		DA5FC0A42867EF6400F39251 /* CardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5FC0A32867EF6400F39251 /* CardListView.swift */; };
 		DA5FC0A62867F0C800F39251 /* DummyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5FC0A52867F0C800F39251 /* DummyCard.swift */; };
 		DA5FC0A92867F1CE00F39251 /* DummyCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5FC0A82867F1CE00F39251 /* DummyCardView.swift */; };
+		DA5FC0AC2867F44300F39251 /* EditPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5FC0AB2867F44300F39251 /* EditPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		DA5FC0A32867EF6400F39251 /* CardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListView.swift; sourceTree = "<group>"; };
 		DA5FC0A52867F0C800F39251 /* DummyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyCard.swift; sourceTree = "<group>"; };
 		DA5FC0A82867F1CE00F39251 /* DummyCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyCardView.swift; sourceTree = "<group>"; };
+		DA5FC0AB2867F44300F39251 /* EditPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 			children = (
 				DA5FC09928669D3600F39251 /* Data */,
 				DA5FC09D2867EC0D00F39251 /* BoardList */,
+				DA5FC0AA2867F42100F39251 /* EditPage */,
 				DA5FC0A22867EF4800F39251 /* CardList */,
 				DA5FC06F2866903900F39251 /* PasterAppApp.swift */,
 				DA5FC0732866903D00F39251 /* Assets.xcassets */,
@@ -175,6 +178,14 @@
 				DA5FC0A82867F1CE00F39251 /* DummyCardView.swift */,
 			);
 			path = DummyCard;
+			sourceTree = "<group>";
+		};
+		DA5FC0AA2867F42100F39251 /* EditPage */ = {
+			isa = PBXGroup;
+			children = (
+				DA5FC0AB2867F44300F39251 /* EditPage.swift */,
+			);
+			path = EditPage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,6 +324,7 @@
 				DA5FC0A12867EDBD00F39251 /* BoardView.swift in Sources */,
 				DA5FC0702866903900F39251 /* PasterAppApp.swift in Sources */,
 				DA5FC0A42867EF6400F39251 /* CardListView.swift in Sources */,
+				DA5FC0AC2867F44300F39251 /* EditPage.swift in Sources */,
 				DA5FC09B28669D5C00F39251 /* DummyData.swift in Sources */,
 				DA5FC0A92867F1CE00F39251 /* DummyCardView.swift in Sources */,
 			);

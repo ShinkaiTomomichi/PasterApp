@@ -10,9 +10,19 @@ import SwiftUI
 struct BoardView: View {
     var board: Board
     var body: some View {
-        VStack {
+        HStack {
+            Image(systemName: board.symbolName)
+                .resizable()
+                .frame(width: 30.0, height: 30.0)
             Text(board.name)
-            Text("適当な概要欄などを追記したい")
+                .font(.title)
+                .fontWeight(.bold)
         }
+    }
+}
+
+struct BoardView_Previews: PreviewProvider {
+    static var previews: some View {
+        BoardView(board: Board(id: "1", name: "サンプル", cardType: "undefined", symbolName: "faceid"))
     }
 }

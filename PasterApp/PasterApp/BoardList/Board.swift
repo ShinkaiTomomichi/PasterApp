@@ -11,6 +11,8 @@ import Foundation
 struct Board {
     var id: String
     var name: String
-    // enumにすべき
-    var type: String
+    // enumに切り替えたい
+    var cardType: String
+    // cardの横にSystemImageを追加したい
+    var symbolName: String
 }

@@ -10,6 +10,7 @@ import SwiftUI
 struct BoardListView: View {
     // データの保存方法は後々考える
     let boardData = DummyData.boardData
+    @State private var show: Bool = false
     
     var body: some View {
         NavigationView {
@@ -26,6 +27,13 @@ struct BoardListView: View {
                     }
                 }
             }.navigationTitle("Board一覧")
+            .toolbar {
+                Button(action: { self.show.toggle() }) {
+                    Text("Edit")
+                }.sheet(isPresented: self.$show) {
+                    EditPage()
+                }
+            }
         }
     }
 }
