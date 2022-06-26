@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		DA5FC0702866903900F39251 /* PasterAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5FC06F2866903900F39251 /* PasterAppApp.swift */; };
-		DA5FC0722866903900F39251 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5FC0712866903900F39251 /* ContentView.swift */; };
+		DA5FC0722866903900F39251 /* BoardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5FC0712866903900F39251 /* BoardListView.swift */; };
 		DA5FC0742866903D00F39251 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA5FC0732866903D00F39251 /* Assets.xcassets */; };
 		DA5FC0772866903D00F39251 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA5FC0762866903D00F39251 /* Preview Assets.xcassets */; };
 		DA5FC0812866903D00F39251 /* PasterAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5FC0802866903D00F39251 /* PasterAppTests.swift */; };
 		DA5FC08B2866903D00F39251 /* PasterAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5FC08A2866903D00F39251 /* PasterAppUITests.swift */; };
 		DA5FC08D2866903D00F39251 /* PasterAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5FC08C2866903D00F39251 /* PasterAppUITestsLaunchTests.swift */; };
+		DA5FC09B28669D5C00F39251 /* DummyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5FC09A28669D5C00F39251 /* DummyData.swift */; };
+		DA5FC09F2867ECA400F39251 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5FC09E2867ECA400F39251 /* Board.swift */; };
+		DA5FC0A12867EDBD00F39251 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5FC0A02867EDBD00F39251 /* BoardView.swift */; };
+		DA5FC0A42867EF6400F39251 /* CardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5FC0A32867EF6400F39251 /* CardListView.swift */; };
+		DA5FC0A62867F0C800F39251 /* DummyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5FC0A52867F0C800F39251 /* DummyCard.swift */; };
+		DA5FC0A92867F1CE00F39251 /* DummyCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5FC0A82867F1CE00F39251 /* DummyCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,7 @@
 /* Begin PBXFileReference section */
 		DA5FC06C2866903800F39251 /* PasterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA5FC06F2866903900F39251 /* PasterAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasterAppApp.swift; sourceTree = "<group>"; };
-		DA5FC0712866903900F39251 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DA5FC0712866903900F39251 /* BoardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardListView.swift; sourceTree = "<group>"; };
 		DA5FC0732866903D00F39251 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA5FC0762866903D00F39251 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DA5FC07C2866903D00F39251 /* PasterAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasterAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +50,12 @@
 		DA5FC0862866903D00F39251 /* PasterAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasterAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA5FC08A2866903D00F39251 /* PasterAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasterAppUITests.swift; sourceTree = "<group>"; };
 		DA5FC08C2866903D00F39251 /* PasterAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasterAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DA5FC09A28669D5C00F39251 /* DummyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyData.swift; sourceTree = "<group>"; };
+		DA5FC09E2867ECA400F39251 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		DA5FC0A02867EDBD00F39251 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		DA5FC0A32867EF6400F39251 /* CardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListView.swift; sourceTree = "<group>"; };
+		DA5FC0A52867F0C800F39251 /* DummyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyCard.swift; sourceTree = "<group>"; };
+		DA5FC0A82867F1CE00F39251 /* DummyCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +106,10 @@
 		DA5FC06E2866903800F39251 /* PasterApp */ = {
 			isa = PBXGroup;
 			children = (
+				DA5FC09928669D3600F39251 /* Data */,
+				DA5FC09D2867EC0D00F39251 /* BoardList */,
+				DA5FC0A22867EF4800F39251 /* CardList */,
 				DA5FC06F2866903900F39251 /* PasterAppApp.swift */,
-				DA5FC0712866903900F39251 /* ContentView.swift */,
 				DA5FC0732866903D00F39251 /* Assets.xcassets */,
 				DA5FC0752866903D00F39251 /* Preview Content */,
 			);
@@ -125,6 +139,42 @@
 				DA5FC08C2866903D00F39251 /* PasterAppUITestsLaunchTests.swift */,
 			);
 			path = PasterAppUITests;
+			sourceTree = "<group>";
+		};
+		DA5FC09928669D3600F39251 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				DA5FC09A28669D5C00F39251 /* DummyData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		DA5FC09D2867EC0D00F39251 /* BoardList */ = {
+			isa = PBXGroup;
+			children = (
+				DA5FC0712866903900F39251 /* BoardListView.swift */,
+				DA5FC09E2867ECA400F39251 /* Board.swift */,
+				DA5FC0A02867EDBD00F39251 /* BoardView.swift */,
+			);
+			path = BoardList;
+			sourceTree = "<group>";
+		};
+		DA5FC0A22867EF4800F39251 /* CardList */ = {
+			isa = PBXGroup;
+			children = (
+				DA5FC0A32867EF6400F39251 /* CardListView.swift */,
+				DA5FC0A72867F0DA00F39251 /* DummyCard */,
+			);
+			path = CardList;
+			sourceTree = "<group>";
+		};
+		DA5FC0A72867F0DA00F39251 /* DummyCard */ = {
+			isa = PBXGroup;
+			children = (
+				DA5FC0A52867F0C800F39251 /* DummyCard.swift */,
+				DA5FC0A82867F1CE00F39251 /* DummyCardView.swift */,
+			);
+			path = DummyCard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +307,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA5FC0722866903900F39251 /* ContentView.swift in Sources */,
+				DA5FC0722866903900F39251 /* BoardListView.swift in Sources */,
+				DA5FC09F2867ECA400F39251 /* Board.swift in Sources */,
+				DA5FC0A62867F0C800F39251 /* DummyCard.swift in Sources */,
+				DA5FC0A12867EDBD00F39251 /* BoardView.swift in Sources */,
 				DA5FC0702866903900F39251 /* PasterAppApp.swift in Sources */,
+				DA5FC0A42867EF6400F39251 /* CardListView.swift in Sources */,
+				DA5FC09B28669D5C00F39251 /* DummyData.swift in Sources */,
+				DA5FC0A92867F1CE00F39251 /* DummyCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
